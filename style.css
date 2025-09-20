@@ -25,7 +25,7 @@ img{
 }
 input{
     border-radius: 20px;
-    padding: 8px 6px 8px 40px;
+    padding: 8px 120px 8px 40px;
     border: 1px solid rgba(0, 0, 0, 0.639);
 }
 form::before{
@@ -35,7 +35,7 @@ form::before{
     width: 22px;
     content:"";
     z-index: 1;
-    left: 5%;
+    left: 4%;
     top: 6px;
 }
 button{
@@ -50,15 +50,24 @@ h1{
 .title,.signup,.nav{
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 30px 0px;
     display: flex;
 }
 .title{
     gap: 20px;
 }
 .signup{
-    transform: scale(1.1);
+    transform: scale(1.4);
 }
 .nav{
     gap: 2.2%;
+}
+
+
+
+
+
+button:hover ,a:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.904);
+    transform: scale(0.9);
 }
