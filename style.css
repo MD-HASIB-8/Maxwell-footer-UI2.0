@@ -1,0 +1,28 @@
+*{
+    font-family:sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+}
+body{
+    white-space: nowrap;
+}
+footer{
+    border-bottom: 10px solid greenyellow;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+h1{
+    font-size: 60px;
+}
+.title,.signup,.nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
