@@ -1,11 +1,13 @@
 *{
     font-family:sans-serif;
     box-sizing: border-box;
+    transition: .2s ease;
     position: relative;
     margin: 0;
 }
 body{
     white-space: nowrap;
+    overflow-x: hidden;
 }
 footer{
     border-bottom: 10px solid greenyellow;
@@ -18,11 +20,45 @@ a{
     font-size: 20px;
     color: black;
 }
+img{
+    height: 62px;
+}
+input{
+    border-radius: 20px;
+    padding: 8px 6px 8px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.639);
+}
+form::before{
+    background: url("./assets/icons8-user-96.png") no-repeat center/contain;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    content:"";
+    z-index: 1;
+    left: 5%;
+    top: 6px;
+}
+button{
+    border: none;
+    background: greenyellow;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
 h1{
     font-size: 60px;
 }
 .title,.signup,.nav{
     justify-content: center;
     align-items: center;
+    margin: 20px 0px;
     display: flex;
+}
+.title{
+    gap: 20px;
+}
+.signup{
+    transform: scale(1.1);
+}
+.nav{
+    gap: 2.2%;
 }
